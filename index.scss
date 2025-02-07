@@ -1,19 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins"  sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
 }
 
-
 .navigation {
-width: 100%;
-height: 112px;
+  width: 100%;
+  height: 112px;
 }
 
 .img {
-   width: 30px; 
-   height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.choice {
+  display: flex;
+  padding: 112px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  .block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #h2 {
+      font-family: "Poppins";
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 62px;
+      letter-spacing: 0.800000011920929px;
+      color: #323232;
+    }
+  }
+}
+
+#perfomes {
+  display: flex;
+  padding: 0 165px;
+  max-width: 1000px;
+
+  ul {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    .first {
+      width: 248px;
+      height: 183px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: scale 0.3s;
+
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      span {
+        font-family: "Poppins";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        color: #323232;
+        padding-top: 15px;
+        padding-bottom: 2px;
+      }
+      p {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+    .first:hover {
+      scale: 1.1;
+    }
+    .two {
+      transition: scale 0.3s;
+      width: 248px;
+      height: 183px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      span {
+        font-family: "Poppins";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        color: #323232;
+        padding-top: 15px;
+        padding-bottom: 2px;
+      }
+      p {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+    .two:hover {
+      scale: 1.1;
+    }
+    .three {
+      width: 248px;
+      height: 183px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: scale 0.3s;
+
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      span {
+        font-family: "Poppins";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        color: #323232;
+        padding-top: 15px;
+        padding-bottom: 2px;
+      }
+      p {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+    .three:hover {
+      scale: 1.1;
+    }
+    .four {
+      width: 248px;
+      height: 183px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: scale 0.3s;
+
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      span {
+        font-family: "Poppins";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        color: #323232;
+        padding-top: 15px;
+        padding-bottom: 2px;
+      }
+      p {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+    .four:hover {
+      scale: 1.1;
+    }
+  }
 }
