@@ -14,4 +14,146 @@
 .img {
   width: 30px;
   height: 30px;
+}
+
+.start {
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto;
+  position: relative;
+}
+.start .imagestart {
+  width: 1110px;
+  height: 464px;
+  top: 1080px;
+  left: 164px;
+}
+.start .startp #firstp {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.8000000119px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 342px;
+  height: 124px;
+  top: 92px;
+  left: 651px;
+  color: white;
+}
+.start .startp #secondp {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 1.1499999762px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 342px;
+  height: 54px;
+  top: 231px;
+  left: 651px;
+  color: white;
+}
+
+.startbuttons #firstbutton {
+  border-radius: 29px;
+  background: #f78434;
+  border: none;
+  position: absolute;
+  width: 172px;
+  height: 58px;
+  top: 315px;
+  left: 651px;
+  transition: scale 1s, background-color 1s, transform 1s;
+}
+.startbuttons #firstbutton #buttonp {
+  position: absolute;
+  width: 91px;
+  height: 24px;
+  top: 18px;
+  left: 41px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.startbuttons #firstbutton:hover {
+  background: #ffffff;
+  scale: 1.1;
+}
+.startbuttons #firstbutton:hover #buttonp {
+  color: black;
+}
+.startbuttons .firstbutton {
+  background: #ffffff !important;
+}
+.startbuttons .firstbutton #buttonp {
+  color: black !important;
+}
+.startbuttons #secondbutton {
+  border-radius: 29px;
+  background: #ffffff;
+  border: none;
+  position: absolute;
+  width: 172px;
+  height: 58px;
+  top: 315px;
+  left: 843px;
+  transition: scale 1s, background-color 1s, transform 1s;
+}
+.startbuttons #secondbutton #buttonp2 {
+  position: absolute;
+  width: 94px;
+  height: 24px;
+  top: 18px;
+  left: 49px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.startbuttons #secondbutton #img {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  gap: 0px;
+  border-radius: 1px;
+  filter: invert(55%) sepia(90%) saturate(600%) hue-rotate(-10deg);
+}
+.startbuttons #secondbutton:hover {
+  background: #f78434;
+  scale: 1.1;
+}
+.startbuttons #secondbutton:hover #buttonp2 {
+  color: #ffffff;
+}
+.startbuttons #secondbutton:hover #img {
+  filter: invert(100%) brightness(200%) contrast(100%);
+}
+.startbuttons .secondbutton {
+  background: #f78434 !important;
+}
+.startbuttons .secondbutton #buttonp2 {
+  color: #ffffff !important;
+}
+.startbuttons .secondbutton #img {
+  filter: invert(100%) brightness(200%) contrast(100%) !important;
 }/*# sourceMappingURL=index.css.map */
