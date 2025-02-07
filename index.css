@@ -6,12 +6,133 @@
   font-family: "Poppins" sans-serif;
 }
 
-.navigation {
-  width: 100%;
-  height: 112px;
+#navigation .imgNav {
+  position: fixed;
+  z-index: 100000;
+  background-color: white;
+  font-family: Poppins;
 }
 
-.img {
+.imgNav {
+  position: absolute;
   width: 30px;
   height: 30px;
+  left: 40px;
+  top: 8px;
+}
+.imgNav p {
+  position: absolute;
+  left: 49px;
+  top: 5px;
+  font-size: 24px;
+}
+.imgNav ul li {
+  left: 677px;
+  top: 5px;
+  width: 598px;
+  height: 23px;
+  text-transform: none;
+  display: flex;
+}
+.imgNav #homeNaw {
+  position: fixed;
+  left: 677px;
+  top: 5px;
+  color: rgb(0, 0, 0);
+  background-color: none;
+  font-family: Poppins;
+}
+.imgNav #aboutNaw {
+  position: fixed;
+  left: 757px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+.imgNav #findNaw {
+  position: fixed;
+  left: 867px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+.imgNav #shareNaw {
+  position: fixed;
+  left: 987px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+.imgNav #promoteNaw {
+  position: fixed;
+  left: 1117px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+
+#homeNaw:hover {
+  color: #F78434;
+}
+
+#aboutNaw:hover {
+  color: #F78434;
+}
+
+#findNaw:hover {
+  color: #F78434;
+}
+
+#shareNaw:hover {
+  color: #F78434;
+}
+
+#promoteNaw:hover {
+  color: #F78434;
+}
+
+#head {
+  position: relative;
+  width: 1440px;
+  height: 676px;
+  font-family: Poppins;
+}
+#head .imgHead {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 1235px;
+  padding-top: 120px;
+}
+#head h1 {
+  position: absolute;
+  font-size: 54px;
+  left: 165px;
+  top: 256px;
+}
+#head p {
+  position: absolute;
+  left: 165px;
+  top: 501px;
+  font-size: 16px;
+}
+#head #headBtn {
+  position: absolute;
+  border-radius: 29px;
+  background-color: #F78434;
+  left: 466px;
+  top: 597px;
+  width: 157px;
+  height: 58px;
+  border: #F78434;
+}
+#head #headIn {
+  width: 277px;
+  height: 58px;
+  position: absolute;
+  left: 165px;
+  top: 597px;
+  border-radius: 29px;
+  padding: 20px;
+  border: none;
 }/*# sourceMappingURL=index.css.map */
