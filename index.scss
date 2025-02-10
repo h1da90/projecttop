@@ -1,166 +1,285 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins"  sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
-#navigation .imgNav {
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+  #navigation {
+    z-index: 100;
+    width: 1440px;
+    height: 42px;
     position: fixed;
-    z-index: 100000  ;
-    background-color:white ;
-font-family:Poppins ;
-}
-// display: flex;
-// align-items: center;
-// justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
 
+    #imgNaw{
+      position:fixed ;
+      top: 5px;
+     left: 995px;
+    }
 
+    p {
+      position: absolute;
+      top: 4px;
+      left: 29px;
+    }
 
-.imgNav {
+      ul li {
     position: absolute;
-   width: 30px; 
-   height: 30px;
-left:40px;
-top:8px;
-
-p{
-    position: absolute;
-    left: 49px;
-    top: 5px;
-    font-size: 24px;
-}
-
-ul li {
-    // position: absolute;
     left: 677px;
     top: 5px;
     width: 598px;
     height: 23px;
     text-transform: none;
     display: flex;
+  }
 
-   
-}
-#homeNaw {
-
+       #homeNaw {
     position: fixed;
     left: 677px;
-    top:5px;
-    color: rgb(0, 0, 0);
-    background-color:none ;
-font-family:Poppins ;
-
-}
-#aboutNaw {
+    top: 5px;
+    background-color: none;
+    font-family: Poppins;
+  }
+  #aboutNaw {
     position: fixed;
-    left:757px;
-    top:5px;
-        background-color:none ;
-font-family:Poppins ;
-}
+    left: 757px;
+    top: 5px;
+    background-color: none;
+    font-family: Poppins;
+  }
 
-#findNaw {
+  #findNaw {
     position: fixed;
-    left:867px;
-    top:5px;
-        background-color:none ;
-font-family:Poppins ;
-}
-#shareNaw {
+    left: 867px;
+    top: 5px;
+    background-color: none;
+    font-family: Poppins;
+  }
+  #shareNaw {
     position: fixed;
-    left:987px;
-    top:5px;
-        background-color:none ;
-font-family:Poppins ;
-}
-#promoteNaw {
+    left: 987px;
+    top: 5px;
+    background-color: none;
+    font-family: Poppins;
+  }
+  #promoteNaw {
     position: fixed;
-    left:1117px;
-    top:5px;    background-color:none;
-font-family:Poppins ;
+    left: 1117px;
+    top: 5px;
+    background-color: none;
+    font-family: Poppins;
+  }
 }
 
+
+
+
+#homeNaw:hover {
+  color: #f78434;
 }
 
-#homeNaw:hover{
-    color:#F78434 ;
+#aboutNaw:hover {
+  color: #f78434;
+}
+#findNaw:hover {
+  color: #f78434;
+}
+#shareNaw:hover {
+  color: #f78434;
+}
+#promoteNaw:hover {
+  color: #f78434;
 }
 
-#aboutNaw:hover{
-    color:#F78434 ;
-}
-#findNaw:hover{
-    color: #F78434;
-}
-#shareNaw:hover{
-    color: #F78434;
-}
-#promoteNaw:hover{
-    color: #F78434;
-}
 
 
 #head {
-    position: relative;
-    width: 1440px;
-    height:676px;
-    font-family: Poppins;
+   position: relative;
+   font-family: Poppins;
+   transition: transform 0.3s;
+
+
+
+
+  h1 {
+    z-index: 10;
+     position: absolute;
+    font-size: 54px;
+    left:   160px;
+    top: 206px;
+    display: flex;
+    text-align: start;
+    
+  }
+
+     p {
+    position: absolute;
+    left: 160px;
+    top: 501px;
+    font-size: 16px;
+    display: flex;
+    text-align: start;
+  }
 
     .imgHead {
+position: absolute;
+top: 90px;
+left: 700px;
+  }
+
+
+    #headBtn {
+    position: absolute;
+    border-radius: 29px;
+    right: 770px;
+    top: 600px;
+   background-color: #f78434;
+   width: 157px;
+   height: 58px;
+   border: #f78434;
+   text-decoration: #fff;
+    
+  }
+
+  #headIn {
+    width: 277px;
+    height: 58px;
+    position: absolute;
+    right: 990px;
+    top: 600px;
+    border-radius: 29px;
+    padding: 20px;
+    border: none;
+  }
+
+}
+
+#headBtn:hover{
+  transform: scale(1.2);
+}
+
+#headIn:hover{
+  transform: scale(1.2);
+}
+
+
+
+#logo {
+  position: relative;
+  top: 750px;
+  width:100% ;
+  height: 200px;
+  transition: transform 0.3s;
+  
+  
+
+
+  .logo1{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+
+  }
+    .logo2{
+    position: absolute;
+    top: 90px;
+    left: 406px;
+  }
+   
+  .logo5{
+     position: absolute;
+    top: 80px;
+    left: 706px;
+    
+  }
+  .logo6{
+         position: absolute;
+    top: 110px;
+    left: 698px;
+  }
+
+    .logo3{
+     position: absolute;
+    top: 85px;
+    left: 1046px;
+  }
+  .logo4  {
+         position: absolute;
+    top: 90px;
+    left: 1050px;
+  }
+   
+   ul li{
+    font-family: Poppins;
+    text-transform: none;
+    opacity: 0,5;
+    overflow: hidden;
     display: flex;
-   justify-content: end;
-    align-items: end;
-    padding: 1235px;
-    padding-top: 120px;
-}
-
-    h1{
-        position: absolute;
-        font-size: 54px;
-        left: 165px;
-        top: 256px;
-    }
-    p{
-        position: absolute;
-        left: 165px;
-        top: 501px;
-        font-size: 16px;
+    color: #D8D8D8;
+    transition: transform 0.1s;
+  }
+ 
+    #ipsum1{
+      position: absolute;
+      left: 220px;
+      top: 90px;
+     overflow: hidden;
     }
 
-    #headBtn{
-        position: absolute;
-        border-radius: 29px;
-        background-color: #F78434;
-        left: 466px;
-        top:597px ;
-        width: 157px; 
-        height: 58px;
-        border: #F78434;
+      #ipsum2{
+      position: absolute;
+      left: 460px;
+      top: 90px;
     }
 
-    #headIn{
-          width: 277px; 
-        height: 58px;
-        position: absolute;
-        left: 165px;
-        top: 597px;
-        border-radius: 29px;
-        padding: 20px;
-        border: none;
-
+      #ipsum3{
+      position: absolute;
+      left: 760px;
+      top: 90px;
     }
 
+      #ipsum4{
+      position: absolute;
+      left: 1120px;
+      top: 90px;
+    }
+  
+  }
+
+
+.logo1:hover {
+ transform: scale(1.1);
 }
 
 
+.logo2:hover {
+ transform: scale(1.1);
+}
+
+.logo3:hover {
+ transform: scale(1.1);
+}
+
+.logo4:hover {
+ transform: scale(1.1);
+}
+
+.logo5:hover {
+ transform: scale(1.1);
+}
 
 
-
-
-
+.logo6:hover {
+ transform: scale(1.2);
+}
 
 
