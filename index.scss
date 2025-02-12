@@ -763,7 +763,6 @@ font-family: Poppins;
     justify-content: center;
     gap: 30px;
     padding-top: 58px;
-    
   }
   .firstCard {
     .photo {
@@ -862,7 +861,6 @@ font-family: Poppins;
   }
   .threeCard {
     .photo {
-      
       position: relative;
       width: 350px;
       height: 204px;
@@ -871,11 +869,11 @@ font-family: Poppins;
         height: 100%;
         object-fit: cover;
       }
-      .sicle{
+      .sicle {
         width: 80px;
         height: 80px;
         position: absolute;
-      right: -40px;
+        right: -40px;
         bottom: 165px;
       }
     }
@@ -941,4 +939,118 @@ font-family: Poppins;
 .experience button:hover{
   transform: scale(1.2);
  background-color: #f78434;
+}
+
+.footer {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 224px;
+  .contactUs {
+    position: absolute;
+    left: 450px;
+    top: 18px;
+    .CutSpaceFoot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      position: absolute;
+      left:0 ;
+      top: -15px;
+      
+      span {
+        
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 24px;
+        color: #323232;
+      }
+    }
+    p {
+      position: absolute;
+      top: 20px;
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 16px;
+      color: #323232;
+      margin-top: 15px;
+      margin-bottom: 40px;
+      width: 300px;
+      height: 54px;
+    }
+    .sotset {
+     position: absolute;
+     top: 100px;
+     width: 300px;
+     height: 54px;
+  
+      img {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .a-bout {
+    ul {
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+
+  .Privacy {
+    color: #323232;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 1000px;
+    top: 0px;
+    margin: 0px;
+    line-height: 2;
+
+    p {
+      font-family: "Poppins";
+      font-weight: 700;
+      font-size: 21px;
+    }
+  }
+
+  .legal {
+    color: #323232;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    line-height: 2;
+
+    p {
+      font-family: "Poppins";
+      font-weight: 700;
+      font-size: 21px;
+    }
+  }
+
+  .conter {
+    color: #323232;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: 1404px;
+    top: 0px;
+    line-height: 2;
+
+    p {
+      font-family: "Poppins";
+      font-weight: 700;
+      font-size: 21px;
+      color: #323232;
+    }
+  }
 }
