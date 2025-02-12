@@ -1,18 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" sans-serif;
+  font-family: Poppins;
 }
 
-.navigation {
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+#navigation {
+  z-index: 100;
+  width: 1440px;
+  height: 42px;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+#navigation #imgNaw {
+  position: absolute;
+  top: 5px;
+  left: 995px;
+}
+#navigation p {
+  position: absolute;
+  top: 4px;
+  left: 29px;
+}
+#navigation ul li {
+  position: absolute;
+  left: 677px;
+  top: 5px;
+  width: 598px;
+  height: 23px;
+  text-transform: none;
+  display: flex;
+}
+#navigation #homeNaw {
+  position: fixed;
+  left: 710px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+#navigation #aboutNaw {
+  position: fixed;
+  left: 830px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+#navigation #findNaw {
+  position: fixed;
+  left: 950px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+#navigation #shareNaw {
+  position: fixed;
+  left: 1100px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+#navigation #promoteNaw {
+  position: fixed;
+  left: 1250px;
+  top: 5px;
+  background-color: none;
+  font-family: Poppins;
+}
+
+#homeNaw:hover {
+  color: #f78434;
+}
+
+#aboutNaw:hover {
+  color: #f78434;
+}
+
+#findNaw:hover {
+  color: #f78434;
+}
+
+#shareNaw:hover {
+  color: #f78434;
+}
+
+#promoteNaw:hover {
+  color: #f78434;
+}
+
+#head {
+  height: 800px;
+  position: relative;
+  font-family: Poppins;
+  transition: transform 0.3s;
+}
+#head h1 {
+  z-index: 10;
+  position: absolute;
+  font-size: 54px;
+  left: 160px;
+  top: 206px;
+  display: flex;
+  text-align: start;
+}
+#head p {
+  position: absolute;
+  left: 160px;
+  top: 501px;
+  font-size: 16px;
+  display: flex;
+  text-align: start;
+}
+#head .imgHead {
+  position: absolute;
+  top: 90px;
+  left: 700px;
+  font-family: Poppins;
+}
+#head #headBtn {
+  position: absolute;
+  width: 157px;
+  height: 58px;
+  border-radius: 29px;
+  top: 600px;
+  left: 470px;
+  background-color: #f78434;
+  border: rgb(255, 255, 255);
+  color: #ffffff;
+}
+#head #headIn {
+  position: absolute;
+  width: 277px;
+  height: 58px;
+  border-radius: 29px;
+  top: 600px;
+  left: 150px;
+  border: #D8D8D8;
+  padding: 30px;
+}
+
+#headBtn:hover {
+  transform: scale(1.2);
+}
+
+#headIn:hover {
+  transform: scale(1.2);
+}
+
+#logo {
+  position: relative;
+  top: 0px;
   width: 100%;
-  height: 112px;
+  height: 200px;
+  transition: transform 0.3s;
+}
+#logo .logo1 {
+  position: absolute;
+  top: 35px;
+  left: 160px;
 }
 
-.img {
-  width: 30px;
-  height: 30px;
+.logo1:hover {
+  transform: scale(1.1);
 }
 
 .start {
@@ -374,6 +531,7 @@
   padding: 112px 0;
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 330px;
 }
 .choice .block {
   width: 100%;
@@ -694,4 +852,125 @@
   font-weight: 400;
   font-size: 16px;
   color: #58bebf;
+}
+
+.experience {
+  height: 492px;
+  position: relative;
+}
+.experience button {
+  position: absolute;
+  width: 172px;
+  height: 58px;
+  border-radius: 29px;
+  left: 163px;
+  top: 434px;
+  background-color: #f5f6fa;
+  border: #D8D8D8;
+  transition: transform 0.3s;
+}
+
+.experience button:hover {
+  transform: scale(1.2);
+  background-color: #f78434;
+}
+
+.footer {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 224px;
+}
+.footer .contactUs {
+  position: absolute;
+  left: 450px;
+  top: 18px;
+}
+.footer .contactUs .CutSpaceFoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+.footer .contactUs .CutSpaceFoot span {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #323232;
+}
+.footer .contactUs p {
+  position: absolute;
+  top: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #323232;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 54px;
+}
+.footer .contactUs .sotset {
+  position: absolute;
+  top: 100px;
+  width: 300px;
+  height: 54px;
+}
+.footer .contactUs .sotset img {
+  margin-right: 30px;
+}
+.footer .a-bout ul li {
+  list-style-type: none;
+}
+.footer .Privacy {
+  color: #323232;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 14px;
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+  margin: 0px;
+  line-height: 2;
+}
+.footer .Privacy p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 21px;
+}
+.footer .legal {
+  color: #323232;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 14px;
+  position: absolute;
+  left: 1200px;
+  top: 0px;
+  line-height: 2;
+}
+.footer .legal p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 21px;
+}
+.footer .conter {
+  color: #323232;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 14px;
+  position: absolute;
+  left: 1404px;
+  top: 0px;
+  line-height: 2;
+}
+.footer .conter p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 21px;
+  color: #323232;
 }/*# sourceMappingURL=index.css.map */
