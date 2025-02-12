@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,33 +7,32 @@
   font-family: Poppins;
 }
 
-
 body {
   max-width: 1440px;
   margin: 0 auto;
   overflow-x: hidden;
 }
-  #navigation {
-    z-index: 100;
-    width: 1440px;
-    height: 42px;
-    position: fixed;
-    background-color: #ffffff;
-    border-radius: 10px;
+#navigation {
+  z-index: 100;
+  width: 1440px;
+  height: 42px;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 10px;
 
-    #imgNaw{
-      position:absolute;
-      top: 5px;
-     left: 995px;
-    }
+  #imgNaw {
+    position: absolute;
+    top: 5px;
+    left: 995px;
+  }
 
-    p {
-      position: absolute;
-      top: 4px;
-      left: 29px;
-    }
+  p {
+    position: absolute;
+    top: 4px;
+    left: 29px;
+  }
 
-      ul li {
+  ul li {
     position: absolute;
     left: 677px;
     top: 5px;
@@ -43,7 +42,7 @@ body {
     display: flex;
   }
 
-       #homeNaw {
+  #homeNaw {
     position: fixed;
     left: 710px;
     top: 5px;
@@ -60,7 +59,7 @@ body {
 
   #findNaw {
     position: fixed;
-    left:950px ;
+    left: 950px;
     top: 5px;
     background-color: none;
     font-family: Poppins;
@@ -81,9 +80,6 @@ body {
   }
 }
 
-
-
-
 #homeNaw:hover {
   color: #f78434;
 }
@@ -101,29 +97,23 @@ body {
   color: #f78434;
 }
 
-
-
 #head {
   height: 800px;
-   position: relative;
-   font-family: Poppins;
-   transition: transform 0.3s;
-
-
-
+  position: relative;
+  font-family: Poppins;
+  transition: transform 0.3s;
 
   h1 {
     z-index: 10;
-     position: absolute;
+    position: absolute;
     font-size: 54px;
-    left:   160px;
+    left: 160px;
     top: 206px;
     display: flex;
     text-align: start;
-    
   }
 
-     p {
+  p {
     position: absolute;
     left: 160px;
     top: 501px;
@@ -132,72 +122,60 @@ body {
     text-align: start;
   }
 
-    .imgHead {
-position: absolute;
-top: 90px;
-left: 700px;
-font-family: Poppins;
+  .imgHead {
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    font-family: Poppins;
   }
- #headBtn{
-  position: absolute;
-  width: 157px;
-  height: 58px;
-  border-radius: 29px;
-  top:600px ;
-  left: 470px;
-  background-color: #f78434;
-  border:rgb(255, 255, 255);
-  color: #ffffff;
+  #headBtn {
+    position: absolute;
+    width: 157px;
+    height: 58px;
+    border-radius: 29px;
+    top: 600px;
+    left: 470px;
+    background-color: #f78434;
+    border: rgb(255, 255, 255);
+    color: #ffffff;
+  }
 
-
- }
-
- #headIn {
-  position: absolute;
-   width: 277px;
-  height: 58px;
-  border-radius: 29px;
-  top: 600px;
-  left: 150px;
-  border: #D8D8D8;
-  padding: 30px;
-  
- }
-
-
+  #headIn {
+    position: absolute;
+    width: 277px;
+    height: 58px;
+    border-radius: 29px;
+    top: 600px;
+    left: 150px;
+    border: #d8d8d8;
+    padding: 30px;
+  }
 }
 
-#headBtn:hover{
+#headBtn:hover {
   transform: scale(1.2);
 }
 
-#headIn:hover{
+#headIn:hover {
   transform: scale(1.2);
 }
-
-
 
 #logo {
   position: relative;
   top: 0px;
-  width:100% ;
+  width: 100%;
   height: 200px;
   transition: transform 0.3s;
-  
-  
 
-
-  .logo1{
+  .logo1 {
     position: absolute;
     top: 35px;
     left: 160px;
-
   }
-  }
-
+}
 
 .logo1:hover {
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .start {
@@ -887,39 +865,26 @@ font-family: Poppins;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 .experience {
-  height:492px ;
+  height: 492px;
   position: relative;
-  
-  
+
   button {
     position: absolute;
     width: 172px;
     height: 58px;
     border-radius: 29px;
-    left:163px;
-  top: 434px;
-  background-color: #f5f6fa;
-  border: #D8D8D8;
-  transition: transform 0.3s;
-  
+    left: 163px;
+    top: 434px;
+    background-color: #f5f6fa;
+    border: #d8d8d8;
+    transition: transform 0.3s;
   }
-
 }
 
-.experience button:hover{
+.experience button:hover {
   transform: scale(1.2);
- background-color: #f78434;
+  background-color: #f78434;
 }
 
 .footer {
@@ -929,6 +894,9 @@ font-family: Poppins;
   justify-content: center;
   align-items: center;
   gap: 224px;
+  top: 650px;
+  right: 280px;
+
   .contactUs {
     position: absolute;
     left: 450px;
@@ -939,11 +907,10 @@ font-family: Poppins;
       justify-content: center;
       gap: 4px;
       position: absolute;
-      left:0 ;
+      left: 0;
       top: -15px;
-      
+
       span {
-        
         font-family: "Poppins";
         font-weight: 700;
         font-size: 24px;
@@ -963,11 +930,11 @@ font-family: Poppins;
       height: 54px;
     }
     .sotset {
-     position: absolute;
-     top: 100px;
-     width: 300px;
-     height: 54px;
-  
+      position: absolute;
+      top: 100px;
+      width: 300px;
+      height: 54px;
+
       img {
         margin-right: 30px;
       }
@@ -1026,6 +993,7 @@ font-family: Poppins;
     left: 1404px;
     top: 0px;
     line-height: 2;
+    width: 134px;
 
     p {
       font-family: "Poppins";
