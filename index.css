@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" sans-serif;
+  font-family: Poppins;
 }
 
 body {
@@ -184,7 +186,7 @@ body {
 }
 .start .startp #firstp {
   position: absolute;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 42px;
   font-weight: 700;
   line-height: 62px;
@@ -520,6 +522,10 @@ body {
   scale: 1.1;
 }
 
+.allchoice {
+  padding: 122px, auto;
+}
+
 .choice {
   display: flex;
   padding: 112px 0;
@@ -679,6 +685,172 @@ body {
 }
 #perfomes ul .four:hover {
   scale: 1.1;
+}
+
+.thanksFor {
+  margin: 1px auto;
+  padding: 60px;
+}
+.thanksFor .headtext {
+  display: flex;
+  justify-content: space-around;
+  gap: 260px;
+  align-items: center;
+}
+.thanksFor .headtext span {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 42px;
+  color: #323232;
+}
+.thanksFor .headtext p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #606060;
+}
+.thanksFor .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 58px;
+}
+.thanksFor .firstCard .photo {
+  position: relative;
+  width: 350px;
+  height: 204px;
+}
+.thanksFor .firstCard .photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.thanksFor .firstCard .photo .surcle {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.thanksFor .firstCard .photo .surcle .sqver {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid;
+  border-radius: 1px;
+  color: #f78434;
+}
+.thanksFor .firstCard .maintext {
+  padding: 31px 29px;
+}
+.thanksFor .firstCard .maintext p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #323232;
+}
+.thanksFor .firstCard .maintext .spans {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.thanksFor .firstCard .maintext .spans .span1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #323232;
+}
+.thanksFor .firstCard .maintext .spans .span2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #58bebf;
+}
+.thanksFor .twoCard .photo {
+  position: relative;
+  width: 350px;
+  height: 204px;
+}
+.thanksFor .twoCard .photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.thanksFor .twoCard .maintext {
+  padding: 31px 29px;
+}
+.thanksFor .twoCard .maintext p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #323232;
+}
+.thanksFor .twoCard .maintext .spans {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.thanksFor .twoCard .maintext .spans .span1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #323232;
+}
+.thanksFor .twoCard .maintext .spans .span2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #58bebf;
+}
+.thanksFor .threeCard .photo {
+  position: relative;
+  width: 350px;
+  height: 204px;
+}
+.thanksFor .threeCard .photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.thanksFor .threeCard .photo .sicle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -40px;
+  bottom: 165px;
+}
+.thanksFor .threeCard .maintext {
+  padding: 31px 29px;
+}
+.thanksFor .threeCard .maintext p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #323232;
+}
+.thanksFor .threeCard .maintext .spans {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.thanksFor .threeCard .maintext .spans .span1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #323232;
+}
+.thanksFor .threeCard .maintext .spans .span2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #58bebf;
 }
 
 .experience {
