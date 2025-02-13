@@ -182,6 +182,7 @@ body {
   width: min-content;
   margin: 0 auto;
   position: relative;
+  z-index: 99;
   .imagestart {
     width: 1110px;
     height: 464px;
@@ -1002,4 +1003,74 @@ body {
       color: #323232;
     }
   }
+}
+
+// Добавляем анимации
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    opacity: 0;
+    transform: rotate(-180deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+.animated {
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animated.visible {
+  opacity: 1;
+}
+
+.animated.fadeIn.visible {
+  animation: fadeIn 1s forwards;
+}
+
+.animated.slideInUp.visible {
+  animation: slideInUp 1s forwards;
+}
+
+.animated.zoomIn.visible {
+  animation: zoomIn 1s forwards;
+}
+
+.animated.rotateIn.visible {
+  animation: rotateIn 1s forwards;
 }
